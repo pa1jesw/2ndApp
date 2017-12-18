@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+
+    <item
+        android:id="@+id/save"
+        android:title="Save"
+        android:orderInCategory="10"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="help"
+        android:orderInCategory="30"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="always"
+        />
+
+</menu>
